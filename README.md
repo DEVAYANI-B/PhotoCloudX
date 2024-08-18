@@ -1,7 +1,7 @@
 # FOR RUNNING THIS APP, FOLLOW THE BELOW STEPS:
 Initially, install all the required dependencies using npm install command
 
-1.First, run the backend by opening a new terminal and typing the following command:
+1.First, run the backend(which is a local mock server) by opening a new terminal and typing the following command:
 
 node server.js
 
