@@ -1,3 +1,24 @@
+# FOR RUNNING THIS APP, FOLLOW THE BELOW STEPS:
+Initially, install all the required dependencies using npm install command
+
+1.First, run the backend by opening a new terminal and typing the following command:
+
+node server.js
+
+2.Next, run the frontend by going to previous terminal and ensure the directory is in photocloudx folder or give cd photocloudx and then run the frontend using following command:
+
+npm start
+
+Now,Your Photo Management App is READY!!!!!
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
