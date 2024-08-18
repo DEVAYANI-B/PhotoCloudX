@@ -1,0 +1,91 @@
+.photo-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    max-width: 100vw; 
+    position: relative;
+    background: linear-gradient(135deg, #437b8e, #0a2c45,#91a0b2);
+}
+
+button.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: linear-gradient(135deg, #0b0a0a, #0056);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    z-index: 10; 
+}
+
+button.back-button:hover {
+    background: linear-gradient(135deg, #434e5a, #007BFF);
+    transform: scale(1.05);
+}
+
+.details-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; 
+    gap: 20px; 
+    margin-top: 60px; 
+}
+
+.image-card {
+    width: 600px;
+    height: 400px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden; 
+    background: linear-gradient(135deg, #0b0a0a, #0056);
+}
+
+.image-card img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+}
+
+.details-card {
+    width: 600px; 
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #0b0a0a, #0056);
+}
+
+h2 {
+    font-size: 24px; 
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}

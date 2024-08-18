@@ -1,0 +1,78 @@
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 40px;
+    background: rgba(86, 16, 16, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(168,48,19);
+    background: linear-gradient(90deg, rgb(250, 207, 133) 0%, rgb(9, 126, 126) 54%, rgb(1, 6, 13) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(110, 0, 0) 0%, rgb(22, 18, 18) 35%, rgb(247, 141, 2) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+input[type="file"], input[type="text"], textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #333;
+    color: #eee;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.button-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(197, 183, 183);
+    transition: background 0.3s, transform 0.2s;
+}
+
+button[type="submit"] {
+    background:linear-gradient(135deg, #078730, rgb(1, 36, 4)
+    );
+   
+}
+
+button[type="button"].go-to-gallery-button {
+    background: linear-gradient(135deg, #0b0a0a, #0056
+)}

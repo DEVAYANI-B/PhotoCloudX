@@ -1,0 +1,71 @@
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    background: rgb(168,48,19);
+background: linear-gradient(90deg, rgb(64, 18, 6) 0%, rgb(4, 88, 111) 54%, rgba(0,9,20,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #0b0a0a, #0056
+    );
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: linear-gradient(135deg, #063464, #476f9a);
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photo-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box; 
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-card h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-transform: uppercase; 
+   
+}
+
+.photo-card p {
+    padding: 0 10px;
+    font-size: 14px;
+}
